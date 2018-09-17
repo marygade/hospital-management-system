@@ -1,0 +1,89 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+}
+.header {
+	width: 100%;
+	text-align: center;
+	color: #06c;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ececec;
+}
+a {
+	text-decoration: none;
+	color: #06c;
+}
+a:hover {
+	text-decoration: underline;
+}
+.clear {
+	clear: both;
+}
+
+.menu {
+	height: 25px;
+	text-align: center;
+	padding-left: 20px;
+	font-size: 125%;
+	padding-top: 5px;
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 10px;
+}
+.menu ul {
+	text-align: center;
+}
+.menu ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+.reportHeading {
+	text-align: center;
+}
+
+.reportTable {
+	border-collapse: collapse;
+	margin: auto;
+}
+.reportTable td, .reportTable th {
+	border: 1px solid black;
+	padding: 5px;
+}
+.reportTable tr:nth-child(2n) {
+	background-color: #ececec;
+}
+
+.formHeading {
+	text-align: center;
+}
+#Login1 {
+	margin: auto;
+	text-align: center;
+}
+
+.userForm {
+	margin: auto;
+	width: 22%;
+}
+.userForm label {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	margin-top: 1%;
+    vertical-align: top;
+}
+.userForm input[type=submit] {
+	margin-left: 25%;
+    margin-top: 2%
+}
+#errorMessage {
+	color: red;
+}
+#successMessage {
+	color: green;
+}
+.success {
+	color: green;
+	text-align: center;
+}
